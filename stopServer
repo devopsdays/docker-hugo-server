@@ -1,0 +1,9 @@
+# !/bin/bash
+#
+# File: stopServer
+#
+# Purpose: Stop the Hugo container as a local server
+#
+
+docker stop hugo-server
+docker rm   hugo-server
