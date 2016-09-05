@@ -2,7 +2,7 @@
 #
 # File: build
 #
-# Purpose: build the hugo docker container
+# Purpose: Build the hugo server docker container on a local computer
 #
 # Author: Randolph Kahle, Databliss, LLC
 #
