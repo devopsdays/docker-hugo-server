@@ -6,7 +6,7 @@ automaticaly update the creation of the Docker image when it detects any
 changes made to this repository.
 
 **databliss/docker-hugo-server** is an installation of Hugo release 0.15 
-running on Alpine Linux release 3.3.
+running on Alpine Linux release 3.4.
 
 
 ##databliss/docker-hugo-server
