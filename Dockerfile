@@ -1,11 +1,11 @@
 #
 # Runs Hugo static site generator as a local server
 #
-FROM databliss/docker-hugo:0.15.2
-MAINTAINER Randolph Kahle "randolph.kahle@databliss.net"
+FROM devopsdays/docker-hugo:v0.16
+MAINTAINER Matt Stratton <matt.stratton@gmail.com>
 
 WORKDIR /site
-ENV VIRTUAL_HOST="http://docker.local:1313" 
+ENV VIRTUAL_HOST="http://docker.local:1313"
 
 EXPOSE 1313
 

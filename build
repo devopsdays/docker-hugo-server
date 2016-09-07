@@ -4,12 +4,11 @@
 #
 # Purpose: Build the hugo server docker container on a local computer
 #
-# Author: Randolph Kahle, Databliss, LLC
+# Author: Matt Stratton
 #
-# Copyright: Randolph Kahle, 2016
+# Copyright: Matt Stratton, Randolph Kahle, 2016
 #
 # License: MIT
 #
 
-docker build -t databliss/docker-hugo-server:0.15.2 .
-
+docker build -t devopsdays/docker-hugo-server:0.16 .

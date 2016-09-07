@@ -1,19 +1,19 @@
 # docker-hugo-server
 
-This repository supplies the Docker Hub container located at 
-https://hub.docker.com/r/databliss/docker-hugo-server/ . Docker Hub will 
-automaticaly update the creation of the Docker image when it detects any 
+This repository supplies the Docker Hub container located at
+https://hub.docker.com/r/devopsdays/docker-hugo-server/ . Docker Hub will
+automaticaly update the creation of the Docker image when it detects any
 changes made to this repository.
 
-**databliss/docker-hugo-server** is an installation of Hugo release 0.15 
+**devopsdays/docker-hugo-server** is an installation of Hugo release 0.16
 running on Alpine Linux release 3.4.
 
 
-##databliss/docker-hugo-server
+##devopsdays/docker-hugo-server
 
 Docker image that runs the Hugo static web site compiler as a dynamic server
 to enable local development of a static web site using Markdown description
-located in a directory. 
+located in a directory.
 
 Use this Docker container _instead of installing Hugo_ directly on your
 computer. This will keep Hugo and its dependencies separate from any
@@ -23,7 +23,7 @@ The file **hugoServer** is provided as an example run script to run the Hugo
 website from within this image. The command to run the server from
 the root directory of the web site is:
 
-    docker run -p 1313:1313 -e VIRTUAL_HOST="${1}" --name hugo-server databliss/docker-hugo-server .
+    docker run -p 1313:1313 -e VIRTUAL_HOST="${1}" --name hugo-server devopsdays/docker-hugo-server .
 
 The options are:
 
@@ -40,7 +40,10 @@ The options are:
 ##Usage
 
 Create a directory in your computer, place a normal Hugo website definition and
-run the command (above). The result is that a local website is run and can be 
-accessed from ```http://localhost:1313```. 
+run the command (above). The result is that a local website is run and can be
+accessed from ```http://localhost:1313```.
 
 NB: You may need to use ```-e VIRTUL_HOST="http://docker.local:1313"
+
+##Credits
+Based upon databliss/docker-hugo-compiler by Randolph Kahle
