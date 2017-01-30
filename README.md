@@ -2,10 +2,10 @@
 
 This repository supplies the Docker Hub container located at
 https://hub.docker.com/r/devopsdays/docker-hugo-server/ . Docker Hub will
-automaticaly update the creation of the Docker image when it detects any
+automatically update the creation of the Docker image when it detects any
 changes made to this repository.
 
-**devopsdays/docker-hugo-server** is an installation of Hugo release 0.16
+**devopsdays/docker-hugo-server** is an installation of Hugo release 0.18
 running on Alpine Linux release 3.4.
 
 

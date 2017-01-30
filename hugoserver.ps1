@@ -4,5 +4,5 @@ $MyPath = (Get-Item -Path ".\" -Verbose).FullName
 Write-Host $MyPath
 
 docker stop hugo-server
-docker rm hugo-server 
-docker run -p 1313:1313 -v ${MyPath}:/site --name hugo-server devopsdays/docker-hugo-server:v0.16
+docker rm hugo-server
+docker run -p 1313:1313 -v ${MyPath}:/site --name hugo-server devopsdays/docker-hugo-server:v0.18
