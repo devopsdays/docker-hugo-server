@@ -5,11 +5,11 @@ https://hub.docker.com/r/devopsdays/docker-hugo-server/ . Docker Hub will
 automatically update the creation of the Docker image when it detects any
 changes made to this repository.
 
-**devopsdays/docker-hugo-server** is an installation of Hugo release 0.20
+**devopsdays/docker-hugo-server** is an installation of Hugo release 0.21
 running on Alpine Linux release 3.4.
 
 
-##devopsdays/docker-hugo-server
+## devopsdays/docker-hugo-server
 
 Docker image that runs the Hugo static web site compiler as a dynamic server
 to enable local development of a static web site using Markdown description
@@ -37,7 +37,7 @@ The options are:
 
 * The ***```.```*** (dot) signifies that the present working directory is the root of the website defined using Markdown following Hugo directives.
 
-##Usage
+## Usage
 
 Create a directory in your computer, place a normal Hugo website definition and
 run the command (above). The result is that a local website is run and can be
@@ -45,5 +45,5 @@ accessed from ```http://localhost:1313```.
 
 NB: You may need to use ```-e VIRTUL_HOST="http://docker.local:1313"
 
-##Credits
+## Credits
 Based upon databliss/docker-hugo-compiler by Randolph Kahle
