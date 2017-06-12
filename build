@@ -11,4 +11,4 @@
 # License: MIT
 #
 
-docker build -t devopsdays/docker-hugo-server:0.21 .
+docker build -t devopsdays/docker-hugo-server:0.22 .
