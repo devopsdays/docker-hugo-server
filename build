@@ -6,9 +6,9 @@
 #
 # Author: Matt Stratton
 #
-# Copyright: Matt Stratton, Randolph Kahle, 2016
+# Copyright: Matt Stratton, Randolph Kahle, 2016-2017
 #
 # License: MIT
 #
 
-docker build -t devopsdays/docker-hugo-server:0.23 .
+docker build -t devopsdays/docker-hugo-server:0.30.2 .
