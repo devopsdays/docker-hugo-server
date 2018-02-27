@@ -5,4 +5,4 @@ Write-Host $MyPath
 
 docker stop hugo-server
 docker rm hugo-server
-docker run -p 1313:1313 -v ${MyPath}:/site --name hugo-server devopsdays/docker-hugo-server:v0.30.2
+docker run -p 1313:1313 -v ${MyPath}:/site --name hugo-server devopsdays/docker-hugo-server:0.36.1
